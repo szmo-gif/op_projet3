@@ -14,15 +14,17 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
-<body>
+<body class="body">
     <div class="main-container">
         <header>
             <img src="./images/logo/Booki.png" alt="Booki écris en violet avec style">
-            <button>Hébergements</button><button>Activités</button>
+            <nav>
+                <button>Hébergements</button><button>Activités</button>
+            </nav>
         </header>
         <main>
             <section> <!-- info groupe -->
-                <h1>Trouvez votre hebergement pour des vacances de location en ville</h1>
+                <h1 class="section-title">Trouvez votre hebergement pour des vacances de location en ville</h1>
                 <p>En plein centre ville ou en pleine nature</p>
 
                 <form> <!-- barre de recherche -->
@@ -32,7 +34,7 @@
                 </form>
 
                 <section> <!-- filtres -->
-                    <h2>Filtres</h2>
+                    <h2 class="section-title">Filtres</h2>
                     <button><i class="fa-solid fa-money-bill-wave" aria-hidden="true"></i>Economique</button>
                     <button><i class="fa-solid fa-person" aria-hidden="true"></i>Familial</button>
                     <button><i class="fa-solid fa-heart" aria-hidden="true"></i>Romantique</button>
@@ -44,14 +46,15 @@
                 </section>
             </section>
 
+            <!-- Hebergements -->
             <div class="hebergements-and-populaires">
                 <section class="hebergements">
-                    <h2>Hebergements a Marseille</h2>
+                    <h2 class="section-title">Hebergements a Marseille</h2>
                     <figure>
-                        <figure>
+                        <figure class="card">
                             <img src="images/hebergements/fred-kleber.jpg" alt="chambre avec deux lits et une fenêtre ouverte">
                             <figcaption>
-                                <h3>Hôtel du port</h3>
+                                <h3 class="card-title">Hôtel du port</h3>
                                 <p>Nuit à partir de 52<span class="euro">€</span></p>
                                 <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                                 <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
@@ -61,10 +64,10 @@
                             </figcaption>
                         </figure>
 
-                        <figure>
+                        <figure class="card">
                             <img src="images/hebergements/febrian-zakaria.jpg" alt="chambre avec deux lits, un bureau et une télé">
                                 <figcaption>
-                                    <h3>Hôtel Chez Amina</h3>
+                                    <h3 class="card-title">Hôtel Chez Amina</h3>
                                     <p>Nuit à partir de 96<span class="euro">€</span></p>
                                     <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                                     <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
@@ -74,10 +77,10 @@
                                 </figcaption>
                         </figure>
 
-                        <figure>
+                        <figure class="card">
                             <img src="images/hebergements/reisetopia.jpg" alt="chambre avec un lits et une armoire">
                             <figcaption>
-                                <h3>Hôtel Les mouettes</h3>
+                                <h3 class="card-title">Hôtel Les mouettes</h3>
                                 <p>Nuit à partir de 76<span class="euro">€</span></p>
                                 <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                                 <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
@@ -89,10 +92,10 @@
                     </figure>
 
                     <figure>
-                        <figure>
+                        <figure class="card">
                             <img src="images/hebergements/annie-spratt.jpg" alt="un lit double avec au dessus un tableau de la mer">
                             <figcaption>
-                                <h3>Hôtel de la mer</h3>
+                                <h3 class="card-title">Hôtel de la mer</h3>
                                 <p>Nuit à partir de 46<span class="euro">€</span></p>
                                 <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                                 <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
@@ -102,10 +105,10 @@
                             </figcaption>
                         </figure>
 
-                        <figure>
+                        <figure class="card">
                             <img src="images/hebergements/marcus-loke.jpg" alt="lit supperposé et deux fenêtres">
                             <figcaption>
-                                <h3>Auberge La Canebiere</h3>
+                                <h3 class="card-title">Auberge La Canebiere</h3>
                                 <p>Nuit à partir de 25<span class="euro">€</span></p>
                                 <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                                 <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
@@ -115,10 +118,10 @@
                             </figcaption>
                         </figure>
 
-                        <figure>
+                        <figure class="card">
                             <img src="images/hebergements/nicate-lee.jpg" alt="chambre avec deux lits et une fenêtre ouverte">
                             <figcaption>
-                                <h3>Auberge Le Panier</h3>
+                                <h3 class="card-title">Auberge Le Panier</h3>
                                 <p>Nuit à partir de 23<span class="euro">€</span></p>
                                 <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                                 <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
@@ -132,6 +135,7 @@
                     <p>Afficher plus</p>
                 </section>
 
+                <!-- Populaires ne pas toucher -->
                 <section class="populaires">
                     <div class="populaires-title">
                         <h2 class="section-title">Les plus populaires</h2>
@@ -199,39 +203,41 @@
                 </section>
             </div>
 
+            <!-- Activités -->
             <section>
                 <h2 class="section-title">Activités a Marseille</h2>
 
                 <figure>
                     <img src="images/activites/reno-laithienne.jpg" alt="Vieux port">
                     <figcaption>
-                        <h3>Vieux port</h3>
+                        <h3 class="card-title">Vieux port</h3>
                     </figcaption>
                 </figure>
 
                 <figure>
                     <img src="images/activites/paul-hermann.jpg" alt="Fort de Pomegues">
                     <figcaption>
-                        <h3>Fort de Pomegues</h3>
+                        <h3 class="card-title">Fort de Pomegues</h3>
                     </figcaption>
                 </figure>
 
                 <figure>
                     <img src="images/activites/kilyan-sockalingum.jpg" alt="Parc National des Calanques">
                     <figcaption>
-                        <h3>Parc National des Calanques</h3>
+                        <h3 class="card-title">Parc National des Calanques</h3>
                     </figcaption>
                 </figure>
 
                 <figure>
                     <img src="images/activites/florian-wehde.jpg" alt="Notre-Dame-de-la-Garde">
                     <figcaption>
-                        <h3>Notre-Dame-de-la-Garde</h3>
+                        <h3 class="card-title">Notre-Dame-de-la-Garde</h3>
                     </figcaption>
                 </figure>
             </section>
         </main>
 
+        <!-- Footer -->
         <footer>
             <article>
                 <h2 class="section-title">A propos</h2>
