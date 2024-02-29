@@ -214,11 +214,15 @@ header form button{
 .serch-form input {
     font-size: 18px;
     font-weight: 700;
-    outline: none;
-
 }
 
 .filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.filters ul {
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
