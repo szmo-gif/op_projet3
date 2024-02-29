@@ -106,9 +106,24 @@ header img {
 
 header nav {
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+    justify-content: space-evenly;
+    gap: 934.91px;
+    flex-direction: row;
+    align-content: stretch;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-evenly;
     gap: 68px;
+    flex-direction: row;
+    padding: 0px 50px;
+    align-items: center;
+}
+
+header a:hover {
+    color: var(--main-color);
 }
 
 header button {
