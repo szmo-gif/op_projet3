@@ -81,14 +81,17 @@ a {
     color: var(--main-bg-color)
 }
 
+/* Header */
 header {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    gap: 934.91px;
     align-self: stretch;
     width: 100%;
     box-sizing: border-box;
+    align-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 header img {
