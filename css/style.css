@@ -300,7 +300,6 @@ header form button{
 .hebergements .card{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     box-sizing: border-box;
     padding: 5px;
     height: 192px;
