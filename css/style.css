@@ -317,12 +317,14 @@ header form button{
     justify-content: space-evenly;
     height: 100%;
     box-sizing: border-box;
+    margin-top: 30px;
 }
 
 .hebergements p{
     font-weight: 700;
     cursor: pointer;
 }
+
 
 /****** Populaires ***********/
 .populaires {
