@@ -124,6 +124,7 @@ header nav ul {
 
 header a:hover {
     color: var(--main-color);
+    border-top: 2px solid var(--main-color);
 }
 
 header button {
