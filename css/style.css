@@ -108,8 +108,8 @@ header img {
 
 header nav {
     display: flex;
-    justify-content: space-evenly;
-    gap: 934.91px;
+    justify-content: space-between;
+    width: 100%;
     flex-direction: row;
     align-content: stretch;
     align-items: center;
