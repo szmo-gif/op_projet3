@@ -200,25 +200,7 @@ header form button{
     align-items: center;
 }
 
-.search-form button{
-    background-color: var(--main-color);
-    color: white;
-    border: 1px;
-    border-radius: 0 15px 15px 0;
-    width: 132px;
-    height: 49px;
-    font-size: 18px;
-    font-weight: 700;
-    cursor: pointer;
-    padding: 15px, 16px, 15px, 16px;
-    gap: 10px;
-}
-
-.serch-form input {
-    font-size: 18px;
-    font-weight: 700;
-}
-
+/* Filters */
 .filters {
     display: flex;
     flex-wrap: wrap;
