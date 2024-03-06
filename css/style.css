@@ -23,6 +23,8 @@ body {
     align-items: flex-start;
     gap: 35px;
     align-self: stretch;
+    display: grid;
+
 }
 
 ul {
