@@ -482,9 +482,56 @@ footer h2{
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
+    .activites img {
+        height: 200px;
+    }
 }
+
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-    /* ... */
+    header{
+        gap: 45px;
+    }
+
+    header nav {
+        flex-direction: column;
+    }
+
+    header a:hover {
+        border-top: none;
+        border-bottom: 3px solid var(--main-color);
+        padding-bottom: 15px;
+    }
+    
+    .info{
+        gap: 10px;
+    }
+
+    header form {
+        width: 100%;
+    }
+
+    header form button {
+        font-size: 0;
+        padding: 0;
+        visibility: hidden;
+    }
+
+    header form button::after {
+        content: "\f002";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900; 
+        font-size: 24px; 
+        visibility: visible;
+        background-color: var(--main-color);
+        color: white;
+        width: 50px;
+        height: 49px;
+        border-radius: 15px;
+        border: 1px solid #F2F2F2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
