@@ -93,6 +93,7 @@ header {
     align-content: space-around;
     flex-wrap: wrap;
     flex-direction: column;
+    gap: 30px;
 }
 
 header img {
