@@ -24,7 +24,7 @@ body {
     gap: 35px;
     align-self: stretch;
     display: grid;
-
+    max-width: 100%;
 }
 
 ul {
