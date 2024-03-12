@@ -513,12 +513,16 @@ footer h2{
         flex-direction: column;
     }
 
+    
+    header a{
+        padding-bottom: 15px;
+    }
+
     header a:hover {
         border-top: none;
         border-bottom: 3px solid var(--main-color);
-        padding-bottom: 15px;
     }
-    
+
     .info{
         gap: 10px;
     }
