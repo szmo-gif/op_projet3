@@ -18,13 +18,18 @@
 body {
     display: flex;
     justify-content: center;
-    padding: 0px 50px;
     flex-direction: column;
     align-items: flex-start;
     gap: 35px;
     align-self: stretch;
     display: grid;
     max-width: 100%;
+}
+
+.hebergements, 
+.info-groupe,
+.activites {
+    padding: 0 50px;
 }
 
 ul {
