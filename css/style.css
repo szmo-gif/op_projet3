@@ -258,6 +258,8 @@ header form button{
     display: flex;
     align-items: center;
     gap: 10px;
+    margin-bottom: 35px;
+    font-size: 14px;
 }
 
 /****** Hebergements And Populaires ***********/
@@ -265,6 +267,7 @@ header form button{
     display: flex;
     justify-content: space-between;
     gap: 40px;
+    margin: 0 50px;
 }
 
 .hebergements-and-populaires section {
