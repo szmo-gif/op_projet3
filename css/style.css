@@ -528,7 +528,15 @@ footer h2{
     }
 
     .info{
-        gap: 10px;
+        gap: 8px;
+    }
+
+    .info-groupe {
+        padding: 0 20px;
+    }
+
+    .info-groupe p {
+        margin : 0;
     }
 
     header form {
