@@ -513,10 +513,6 @@ footer h2{
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
 
-    header{
-        gap: 45px;
-    }
-
     header nav {
         flex-direction: column;
     }
