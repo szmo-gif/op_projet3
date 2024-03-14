@@ -320,6 +320,10 @@ header form button{
     cursor: pointer;
 }
 
+.hebergements figcaption p {
+    font-weight: 100;
+}
+
 
 /****** Populaires ***********/
 .populaires {
