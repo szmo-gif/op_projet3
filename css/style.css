@@ -657,13 +657,14 @@ footer h2{
     }
 
     .activites .card{
-        width: 93%;
+        width: 100%;
     }
 
     footer{
         display: flex;
         flex-direction: column;
         gap: 15px;
+        margin: 0;
     }
 
     header input {
