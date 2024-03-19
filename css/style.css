@@ -142,7 +142,8 @@ header button {
     background-color: white;
     font-size: 16px;
     font-weight: 500;
-    cursor: pointer;}
+    cursor: pointer;
+}
 
 .info-groupe{
     display: flex;
@@ -170,7 +171,7 @@ header form{
 
 }
 
-header input{
+input {
     border: 1px solid #F2F2F2;
     width: 220px;
     height: 49px;
@@ -180,12 +181,11 @@ header input{
     text-align: center;
 }
 
-header form button{
+form button {
     background-color: var(--main-color);
     color: white;
     border: 1px;
     border-radius: 0 15px 15px 0;
-    width: 132px;
     height: 49px;
     font-size: 18px;
     font-weight: 700;
@@ -228,6 +228,10 @@ header form button{
     font-weight: 700;
     cursor: pointer;
     background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
 }
 
 .filters button:hover {
@@ -285,27 +289,23 @@ header form button{
     height: 124px;
 }
 
+.hebergements > figure {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+}
+
 .hebergements .card{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
     box-sizing: border-box;
     padding: 5px;
     background-color: white;
     border-radius: 20px;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
     cursor: pointer;
-}
-
-.hebergements figure {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    box-sizing: border-box;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 30px;
-    grid-row-gap: 30px;
 }
 
 .hebergements p{
@@ -570,9 +570,6 @@ footer h2{
     }
     
     .filters button {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
         height: 50px;
         width: 100%;
     }
