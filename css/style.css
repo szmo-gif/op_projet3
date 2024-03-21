@@ -309,17 +309,32 @@ form button {
     border-radius: 20px;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
     cursor: pointer;
+    gap: 4px;
+}
+
+figcaption{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    box-sizing: border-box;
+    padding: 5px;
+    height: 100%;
+    width: 100%;
 }
 
 .hebergements p{
     font-weight: 700;
     cursor: pointer;
+    gap: 8px;
 }
 
 .hebergements figcaption p {
     font-weight: 100;
 }
 
+.hebergements a {
+    width: calc((100% - 60px) / 3);
+}
 
 /****** Populaires ***********/
 .populaires {
