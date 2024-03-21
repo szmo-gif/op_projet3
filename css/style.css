@@ -654,6 +654,10 @@ footer h2{
         padding: 4px;
     }
 
+    .hebergements a{
+        width: 100%;
+    }
+
     .activites {
         margin: 0 0 35px 0;
         padding: 30px;
