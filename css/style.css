@@ -156,9 +156,7 @@ header button {
 .info{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
-    align-self: stretch;
+    gap: 8px;
 }
 
 header form{
